@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+   }
+
+h1 {
+  color: white;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  }
+
+.imageMattDamon {
+	min-width: 90%
+}

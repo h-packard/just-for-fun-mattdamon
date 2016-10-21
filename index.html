@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>WHATS MY NAME</title>
+	<link rel="stylesheet" type="text/css"href="stylesheet.css">
+</head>
+<body>
+	<h1> Nobody expects... </h1>
+	<div>
+		<button class="myButton">
+			Who?
+		</button>
+	</div>
+	<img class="imageMattDamon" src= "palace.jpg">
+
+
+
+
+<!-- Had to change our source of JQuery as some of the functions in the plugin are outdated. Using the jquery file provided in the kit. -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script>!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>')</script>
+<script src="jquery.mattdamon.js"></script>
+<script type="text/javascript">
+     $(window).load(function() {
+          $('.myButton').mattDamonize();
+     });
+</script>
+<!-- <script type="text/javascript" src="app.js"></script>
+ -->
+
+
+
+</body>
+</html>
